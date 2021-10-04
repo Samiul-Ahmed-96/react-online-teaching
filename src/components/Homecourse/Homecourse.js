@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-const Course = (props) => {
+const Homecourse = (props) => {
     const {name,img,description,price,rating} = props.course;
     return (
         <div>
@@ -23,4 +23,4 @@ const Course = (props) => {
     );
 };
 
-export default Course;
+export default Homecourse;
