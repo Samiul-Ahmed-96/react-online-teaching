@@ -3,8 +3,9 @@ import { Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const Services = () => {
+    //Store services data
     const [services, setServices] = useState([]);
-
+    //load Services data
     useEffect(()=>{
         fetch('./services.json')
         .then(res => res.json())
@@ -20,10 +21,6 @@ const Services = () => {
         }
         </Row>
         </Container>
-
-        
-           
-        
     );
 };
 

@@ -5,8 +5,9 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './Courses.css';
 const Courses = () => {
+    //store courses data
     const [courses,setCourses] = useState([]);
-
+    //load courses data
     useEffect(()=>{
         fetch('./courses.json')
         .then(res => res.json())

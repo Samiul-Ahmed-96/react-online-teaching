@@ -3,7 +3,9 @@ import { Container, Row } from 'react-bootstrap';
 import Homecourse from '../Homecourse/Homecourse';
 
 const Homecourses = () => {
+    //Store home Course data
     const [courses,setCourses] = useState([])
+    //Load home course data
     useEffect(()=>{
         fetch('./courses.json')
         .then(res => res.json())
