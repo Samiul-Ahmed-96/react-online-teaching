@@ -18,7 +18,7 @@ const Courses = () => {
         <Header></Header>
         <Container>
         <div className="section-heading">
-            <h1>Contact Us</h1>
+            <h1>Courses</h1>
         </div>
         <h2 className="course-heading">Our Courses</h2>
         <Row className="my-4" xs={1} md={3} className="g-4">
