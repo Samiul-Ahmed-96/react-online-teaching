@@ -17,12 +17,10 @@ const About = () => {
                     <Col>
                         <div className="about-detail my-4">
                             <h2>Our Mission</h2>
-                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-
-                            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                            <p>We aspire to create outstanding organisations that promote educational excellence, character development and service to communities.</p>
 
                             <h2>Our Vision</h2>
-                            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.</p>
+                            <p>Nurturing Today’s Young People, Inspiring Tomorrow’s Leaders Our vision is wide-ranging.  It encompasses aspiration, educational excellence, system leadership, social mobility and cohesion.</p>
                         </div>
 
                         <div className='more-about'>

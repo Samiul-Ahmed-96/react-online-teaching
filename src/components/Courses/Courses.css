@@ -2,11 +2,11 @@
   color: #fff;
   background: #252585;
   border: 2px solid #252585;
-  padding: 10px 20px;
-  border: none;
+  padding: 8px 20px;
   border-radius: 10px;
   font-weight: 600;
   transition: 0.3s;
+  margin: 10px 0px;
 }
 .card-body button:hover {
   background: #fff;

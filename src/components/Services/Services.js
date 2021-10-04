@@ -14,7 +14,7 @@ const Services = () => {
 
     return (
         <Container>
-        <h1>Our servies</h1>
+        <h1>Services Info</h1>
         <Row xs={2} md={4} className="g-4">
         {
             services.map(service => <Service service={service}></Service>)
