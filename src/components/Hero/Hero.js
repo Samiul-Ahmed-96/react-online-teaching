@@ -1,13 +1,13 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import hero from '../../image/hero.png';
+import hero from '../../image/hero.jpeg';
 import './Hero.css';
 
 const Hero = () => {
     return (
         <div className='hero-main'>
             <Container>
-                <Row>
+                <Row className="align-items-center">
                     <Col>
                         <div className="hero-left">
                             <small>Popular Online Courses</small>
@@ -17,7 +17,7 @@ const Hero = () => {
                     </Col>
                     <Col>
                         <div className="hero-right">
-                            <img src={hero} alt="" />
+                            <img className="w-100 float-end" src={hero} alt="" />
                         </div>
                     </Col>
                 </Row>

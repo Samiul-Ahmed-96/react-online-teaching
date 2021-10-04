@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-
+import './Courses.css';
 const Courses = () => {
     const [courses,setCourses] = useState([]);
 
@@ -16,7 +16,10 @@ const Courses = () => {
         <>
         <Header></Header>
         <Container>
-        <Row xs={1} md={3} className="g-4">
+        <div className="section-heading">
+            <h1>Contact Us</h1>
+        </div>
+        <Row className="my-4" xs={1} md={3} className="g-4">
             {
                 courses.map(course => <Course course={course}></Course>)
             }

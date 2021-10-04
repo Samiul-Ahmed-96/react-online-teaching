@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Courses from './components/Courses/Courses';
 import Home from './components/Home/Home';
 
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path='/courses'>
           <Courses></Courses>
+        </Route>
+        <Route path='/contact'>
+          <Contact></Contact>
         </Route>
       </Switch>
   </BrowserRouter>

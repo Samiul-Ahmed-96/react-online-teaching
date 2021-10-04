@@ -1,0 +1,41 @@
+.section-heading {
+  background: #252585;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+  border-top: 1px solid #222;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-heading h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.about-detail h2 {
+  color: #252585;
+  font-weight: 700;
+}
+.left-more {
+  border: 1px solid #252585;
+  padding: 20px;
+  border-radius: 10px;
+}
+.left-more button {
+  color: #fff;
+  background: #252585;
+  border: 2px solid #252585;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.left-more h1 {
+  color: #252585;
+  font-weight: 700;
+}
+.left-more button:hover {
+  background: #fff;
+  border: 2px solid #252585;
+  color: #252585;
+}

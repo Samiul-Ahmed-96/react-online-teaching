@@ -1,0 +1,15 @@
+.card-body button {
+  color: #fff;
+  background: #252585;
+  border: 2px solid #252585;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.card-body button:hover {
+  background: #fff;
+  border: 2px solid #252585;
+  color: #252585;
+}
