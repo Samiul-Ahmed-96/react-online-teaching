@@ -1,0 +1,28 @@
+.contact-details input {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  border: 2px solid #252585;
+  padding: 10px;
+  border-radius: 10px;
+  color: #252585;
+  font-weight: 600;
+}
+.contact-details textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0px;
+  padding: 10px;
+  border: 2px solid #252585;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #252585;
+}
+.contact-details button {
+  background: #252585;
+  color: #fff;
+  padding: 10px 30px;
+  border: navajowhite;
+  border-radius: 10px;
+  font-weight: 600;
+}

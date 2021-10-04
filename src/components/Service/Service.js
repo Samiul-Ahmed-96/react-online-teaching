@@ -1,17 +1,17 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import './Service.css';
 
 const Service = (props) => {
-    const {name, description ,img} = props.service
+    const {name, value} = props.service
     return (
         <div className="service-item">
         <Col>
         <Card>
-          <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <Card.Text>
-              {description}
+              {value}
             </Card.Text>
           </Card.Body>
         </Card>

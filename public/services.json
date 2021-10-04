@@ -1,17 +1,18 @@
 [
   {
-    "name": "Web Design",
-    "description": "Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development",
-    "img": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    "name": "Passing",
+    "value": "100%"
   },
   {
-    "name": "App Development",
-    "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.",
-    "img": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    "name": "People Working",
+    "value": "87"
   },
   {
-    "name": "Video Editing",
-    "description": "Video editing is the process of editing segments of motion video production footage, special effects and sound recordings in the post-production process. ... The goal of editing is to manipulate these events to bring the communication closer to the original goal or target. It is a visual art.",
-    "img": "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    "name": "Students Enrolled",
+    "value": "12k"
+  },
+  {
+    "name": "Years Of Experience",
+    "value": "40"
   }
 ]

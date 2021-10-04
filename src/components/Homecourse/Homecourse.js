@@ -13,8 +13,8 @@ const Homecourse = (props) => {
             <Card.Text>
               {description}
             </Card.Text>
-            <h4>{rating}</h4>
-            <h2>Price:${price}</h2>
+            <h4>Rating: {rating}</h4>
+            <h2>Price: ${price}</h2>
             <button>Purchase</button>
           </Card.Body>
         </Card>

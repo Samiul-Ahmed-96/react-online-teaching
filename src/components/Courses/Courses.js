@@ -19,6 +19,7 @@ const Courses = () => {
         <div className="section-heading">
             <h1>Contact Us</h1>
         </div>
+        <h2 className="course-heading">Our Courses</h2>
         <Row className="my-4" xs={1} md={3} className="g-4">
             {
                 courses.map(course => <Course course={course}></Course>)

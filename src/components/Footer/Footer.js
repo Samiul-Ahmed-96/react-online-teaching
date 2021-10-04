@@ -1,11 +1,10 @@
 
-import { faCheckSquare } from '@fortawesome/free-solid-svg-icons';
+import { faBarcode, faBook, faBookReader, faMoneyBillWaveAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-
 const Footer = () => {
     return (
         <div>
@@ -15,7 +14,7 @@ const Footer = () => {
                     <Col>
                         <div className="footer-description">
                             <h2>Online-Teaching</h2>
-                            <p>The New Way To Learn Properly in With Us!</p>
+                            <p>We are an academic residential college made up of students, scholars, old collegians and staff members. Our rich history is the foundation for our values.</p>
                         </div>
                     </Col>
                     <Col>
@@ -33,11 +32,10 @@ const Footer = () => {
                         <div className="social-media">
                         <h2>Let’s Get Social</h2>
                         <ul>
-                            <li><Link to="/"><FontAwesomeIcon icon={faCheckSquare}></FontAwesomeIcon></Link></li>
-                            <li><Link to="/"><FontAwesomeIcon icon={faCheckSquare}></FontAwesomeIcon></Link></li>
-                            <li><Link to="/"><FontAwesomeIcon icon={faCheckSquare}></FontAwesomeIcon></Link></li>
-                            <li><Link to="/"><FontAwesomeIcon icon={faCheckSquare}></FontAwesomeIcon></Link></li>
-
+                            <li><Link to="/"><FontAwesomeIcon icon={faBook}></FontAwesomeIcon></Link></li>
+                            <li><Link to="/"><FontAwesomeIcon icon={faBookReader}></FontAwesomeIcon></Link></li>
+                            <li><Link to="/"><FontAwesomeIcon icon={faMoneyBillWaveAlt}></FontAwesomeIcon></Link></li>
+                            <li><Link to="/"><FontAwesomeIcon icon={faBarcode}></FontAwesomeIcon></Link></li>
                         </ul>
                         </div>
                     </Col>

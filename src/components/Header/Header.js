@@ -13,9 +13,9 @@ const Header = () => {
                         <Link to="/home"><img src={logo} alt="OnlineTeaching" /></Link>
                         <ul>
                             <li><Link to="/home">Home</Link></li>
-                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/about">About us</Link></li>
                             <li><Link to="/courses">Courses</Link></li>
-                            <li><Link to="/contact">Contact Us</Link></li>
+                            <li><Link to="/contact">Contact us</Link></li>
                         </ul>
                     </div>
                 </Container>

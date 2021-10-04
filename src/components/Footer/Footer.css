@@ -22,5 +22,16 @@
 .social-media ul li {
   list-style: none;
   display: inline-block;
-  margin: 0px 15px;
+  margin-right: 10px;
+}
+.social-media ul li a svg {
+  color: #fff;
+  font-size: 30px;
+}
+.footer-description {
+  text-align: left;
+  margin-left: 40px;
+}
+.social-media ul {
+  margin-top: 25px;
 }

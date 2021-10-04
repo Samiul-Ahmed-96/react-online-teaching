@@ -13,3 +13,10 @@
   border: 2px solid #252585;
   color: #252585;
 }
+.container h1 {
+  margin: 50px 0px;
+  font-weight: 700;
+}
+.course-heading {
+  margin: 20px 0px;
+}

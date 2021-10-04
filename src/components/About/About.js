@@ -26,7 +26,7 @@ const About = () => {
                         </div>
 
                         <div className='more-about'>
-                            <Row className="align-items-center" xs={1} md={2}>
+                            <Row className="align-items-center my-5" xs={1} md={2}>
                                 <Col>
                                     <div className='left-more'>
                                       <small>More About Our Company</small>
@@ -43,7 +43,7 @@ const About = () => {
                                 </Col>
                                 <Col>
                                     <div className='right-more text-center'>
-                                        <img className="w-50" src={image} alt="" />
+                                        <img className="w-100 rounded-3" src={image} alt="" />
                                     </div>
                                 </Col>
                             </Row>
