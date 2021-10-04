@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Courses from './components/Courses/Courses';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path='/contact'>
           <Contact></Contact>
+        </Route>
+        <Route path='*'>
+          <NotFound></NotFound>
         </Route>
       </Switch>
   </BrowserRouter>
