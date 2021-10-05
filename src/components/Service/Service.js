@@ -9,7 +9,7 @@ const Service = (props) => {
         <div className="service-item">
         <Col>
         <Card>
-          <Card.Body>
+          <Card.Body className='service-body'>
             <Card.Title>{name}</Card.Title>
             <Card.Text>
               {value}
